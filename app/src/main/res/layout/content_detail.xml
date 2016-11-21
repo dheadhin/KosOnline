@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Alamat"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="alamat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Telp Kos"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/kosTelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Nomor Telp Kos" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Nama Pemilik"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/pemilik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="nama pemilik" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Telepon Pemilik"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/pemilikTelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="alamat pemilik" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Pengelola"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/pengelola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Tukiyem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Telp Pengelola"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/pengelolaTelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="pengelolaTelp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Luas Kamar"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/luas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="luas kamar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Harga(per bulan)"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="harga" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
