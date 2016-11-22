@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "470641095686",
+    "firebase_url": "https://kosonline-92dbc.firebaseio.com",
+    "project_id": "kosonline-92dbc",
+    "storage_bucket": "kosonline-92dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470641095686:android:e29a2a55c1f5fca3",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xiirpl201112131.kosonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470641095686-mp1ugbgidlio8lblhte96h4aoda17p3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZrCgVgz3eGIfJ978_8zCDEsTjIVcj8XE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
