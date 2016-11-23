@@ -121,6 +121,11 @@ public class MainActivity extends AppCompatActivity {
                 detail.putExtra("kosId", kos.getKosId());
                 startActivity(detail);
             }
+
+            @Override
+            public void Delete(kosModel kos) {
+                mFirebaseRef.child("kosTabel").removeValue();
+            }
         }, mineId);
         recyclerView.setAdapter(mAdapter);
 

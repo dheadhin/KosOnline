@@ -53,6 +53,7 @@ public class kosAdapter extends RecyclerView.Adapter<kosAdapter.ViewHolder> {
 
     public interface OnClickListener {
         void onClick(kosModel kos);
+        void Delete(kosModel kos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -71,6 +72,12 @@ public class kosAdapter extends RecyclerView.Adapter<kosAdapter.ViewHolder> {
                 @Override
                 public void onClick(View v) {
                     listener.onClick(kos);
+                }
+            });
+            btnDelete.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.Delete(kos);
                 }
             });
         }
