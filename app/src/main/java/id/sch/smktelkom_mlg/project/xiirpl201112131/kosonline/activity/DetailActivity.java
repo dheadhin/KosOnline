@@ -22,6 +22,8 @@ public class DetailActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
+    @BindView(R.id.namakos)
+    TextView namakos;
     @BindView(R.id.alamat)
     TextView alamat;
     @BindView(R.id.kosTelp)
@@ -74,14 +76,15 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void setText(kosModel kos){
-        alamat.setText(kos.getKosAlamat());
-        kosTelp.setText(kos.getKosTelp());
+        namakos.setText(kos.getKosNama());
+        alamat.setText("   "+kos.getKosAlamat());
+        kosTelp.setText("   "+kos.getKosTelp());
         pemilikHelper.getListPemilik();
-        pemilik.setText(pemilikHelper.getPemilik(kos.getIdPemilik()).getPemilikNama());
-        pemilikTelp.setText(pemilikHelper.getPemilik(kos.getIdPemilik()).getPemilikNoTelp());
-        pengelola.setText(kos.getKosPengelola());
-        pengelolaTelp.setText(kos.getKosKontakPengelola());
-        luas.setText(kos.getKosLuasKamar());
-        harga.setText(""+kos.getKosHarga());
+        pemilik.setText("   "+pemilikHelper.getPemilik(kos.getIdPemilik()).getPemilikNama());
+        pemilikTelp.setText("   "+pemilikHelper.getPemilik(kos.getIdPemilik()).getPemilikNoTelp());
+        pengelola.setText("   "+kos.getKosPengelola());
+        pengelolaTelp.setText("   "+kos.getKosKontakPengelola());
+        luas.setText("   "+kos.getKosLuasKamar());
+        harga.setText("   "+kos.getKosHarga());
     }
 }

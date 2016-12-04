@@ -44,7 +44,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textViewDeskripsi"
             android:layout_marginLeft="16dp"
-            android:layout_toRightOf="@+id/buttonEdit"
             android:text="DELETE"
             android:textColor="?attr/colorAccent" />
 
