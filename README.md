@@ -16,6 +16,8 @@ MANAKOS adalah aplikasi pencarian kos untuk wilayah Malang. Aplikasi ini dapat d
 ## Video Aplikasi : 
 https://youtu.be/ZyVAnBlP8WI
 https://drive.google.com/open?id=0BwtW7sXBtBAPRTRJTmFiZm1mUDg
+<a href="https://www.youtube.com/watch?v=ZyVAnBlP8WI&t=42s "target="_blank">
+<img src="https://cloud.githubusercontent.com/assets/15698921/20971931/d4e70fa6-bcc5-11e6-8985-c06bdee427ab.png" alt="IMAGE ALL TEXT HERE" width="600" height="450" border="10" /> </a>
 
 ## Link File Apk dari Aplikasi : 
 https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B2ewAi7w7569c3BBYmJ6Y1JKR0k/view?usp=sharing
@@ -26,5 +28,4 @@ https://drive.google.com/a/smktelkom-mlg.sch.id/file/d/0B2ewAi7w7569c3BBYmJ6Y1JK
 2. Dinda Pitaloka, XII RPL 2, 11, 4324/1222-070, dindapitaloka
 3. Ken Dheanis Adhine Salsabila, XII RPL 2, 21, 4364/1262-070, dheadhin
 4. Putri Aditya, XII RPL 2, 31, 4414/1312-070, putri16
-
 
