@@ -14,6 +14,7 @@ MANAKOS adalah aplikasi pencarian kos untuk wilayah Malang. Aplikasi ini dapat d
 ![screenshot_2016-11-23-06-27-51](https://cloud.githubusercontent.com/assets/15698921/20956428/6fe96ebc-bc7c-11e6-8cf9-35144527479f.png)
 
 ## Video Aplikasi : 
+https://youtu.be/ZyVAnBlP8WI
 https://drive.google.com/open?id=0BwtW7sXBtBAPRTRJTmFiZm1mUDg
 
 ## Link File Apk dari Aplikasi : 
